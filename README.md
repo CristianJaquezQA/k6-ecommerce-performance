@@ -1,6 +1,6 @@
 # k6 Ecommerce Performance Testing Framework
 
-![smoke](https://github.com/CristianJaquezQA/k6-ecommerce-performance/actions/workflows/performance.yml/badge.svg)
+[![Performance Tests](https://github.com/CristianJaquezQA/k6-ecommerce-performance/actions/workflows/performance.yml/badge.svg)](https://github.com/CristianJaquezQA/k6-ecommerce-performance/actions/workflows/performance.yml)
 
 Performance testing framework built with k6 and TypeScript targeting a real e-commerce API. Includes load, stress, and spike testing scenarios with threshold-based SLO validation and real-time observability via Grafana + InfluxDB.
 
