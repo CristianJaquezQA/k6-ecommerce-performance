@@ -98,6 +98,14 @@ k6 run --out influxdb=http://localhost:8086/k6 src/tests/load.test.ts
 
 ---
 
+## Grafana dashboard
+
+Real-time metrics visualization during load and stress test execution.
+
+![Grafana Dashboard](docs/grafana-dashboard.png)
+
+---
+
 ## Results summary
 
 Tests executed against [DummyJSON](https://dummyjson.com) — a public e-commerce API.
