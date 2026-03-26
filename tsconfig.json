@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "lib": ["es2015"],
+    "types": ["k6"],
+    "noEmit": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "k6": ["node_modules/k6"],
+      "k6/*": ["node_modules/k6/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
