@@ -102,7 +102,17 @@ k6 run --out influxdb=http://localhost:8086/k6 src/tests/load.test.ts
 
 Real-time metrics visualization during load and stress test execution.
 
-![Grafana Dashboard](docs/grafana-dashboard.png)
+### Virtual users
+![Virtual Users](docs/virtual-users.png)
+
+### Requests per second
+![Requests per Second](docs/requests-per-seconds.png)
+
+### Request duration
+![Request Duration](docs/request-duration.png)
+
+### Error rate
+![Error Rate](docs/error-rate.png)
 
 ---
 
